@@ -1,0 +1,51 @@
+export const en = {
+  common: {
+    loading: "Loading...",
+    save: "Save",
+    cancel: "Cancel",
+    delete: "Delete",
+    error: "An error occurred",
+    success: "Saved successfully",
+    logout: "Logout",
+  },
+  auth: {
+    title: "Welcome to PulseBoard",
+    subtitle: "Sign in via Magic Link",
+    email_placeholder: "your@email.com",
+    submit_btn: "Send Magic Link",
+    check_email: "Check your email for the login link!",
+    back: "Back to Home",
+  },
+  landing: {
+    hero_title: "Focus on what matters.",
+    hero_subtitle: "Minimalist habit tracking and daily focus management for high performers.",
+    cta_login: "Get Started",
+    feature_1: "Daily Focus",
+    feature_2: "Habit Tracking",
+    feature_3: "Clean Analytics",
+    feature_1_desc: "Set a single daily goal and achieve it.",
+feature_2_desc: "Build consistency with simple toggles.",
+feature_3_desc: "Visual feedback for your progress.",
+footer_rights: "© {year} PulseBoard. All rights reserved.",
+
+  },
+  dashboard: {
+    greeting: "Hello",
+    focus_card_title: "Daily Focus",
+    focus_placeholder: "What is your main goal today?",
+    habits_card_title: "Habits",
+    add_habit_placeholder: "New habit...",
+    add_habit_btn: "Add",
+    no_habits: "No habits yet. Add one to start tracking.",
+    stats_title: "Today's Progress",
+    stat_completed: "Completed",
+    stat_total: "Total Habits",
+  },
+  settings: {
+    title: "Settings",
+    account_section: "Account",
+    email_label: "Email",
+    lang_section: "Language",
+    preferences: "Preferences",
+  }
+};
