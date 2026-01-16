@@ -23,10 +23,12 @@ export default function Login() {
     setErrorMsg("");
     setSent(false);
 
+    const siteUrl = (import.meta.env.VITE_SITE_URL || window.location.origin).replace(/\/$/, "");
+
     const { error } = await supabase.auth.signInWithOtp({
       email,
       options: {
-        emailRedirectTo: window.location.origin + "/app",
+        emailRedirectTo: `${siteUrl}/app`,
       },
     });
 
